@@ -1,0 +1,494 @@
+ /home/lasse/jpf/jpf-core/bin/jpf +listener=.listener.MethodContextCounter +classpath=/home/lasse/Downloads/pool1/source/fixed org.apache.commons.pool.impl.TestGenericObjectPool 2>&1
+----------------------------------- search started
+      [skipping static init instructions]
+JavaPathfinder core system v8.0 (rev 32+) - (C) 2005-2014 United States Government. All rights reserved.
+
+
+====================================================== system under test
+org.apache.commons.pool.impl.TestGenericObjectPool.main()
+
+====================================================== search started: 9/26/17 11:25 AM
+----------------------------------- search finished
+
+org.apache.commons.pool.impl.TestGenericObjectPool$SimpleFactory.passivateObject(Ljava/lang/Object;)V
+called 190181 times
+recorded? yes
+
+java.lang.Object.<init>()V
+called 1474225 times
+recorded? yes
+
+org.apache.commons.pool.impl.CursorableLinkedList.cursor(I)Lorg/apache/commons/pool/impl/CursorableLinkedList$Cursor;
+called 7 times
+recorded? no
+
+java.util.ArrayList.<clinit>()V
+called 1 times
+recorded? yes
+
+org.apache.commons.pool.BaseObjectPool.isClosed()Z
+called 794441 times
+recorded? yes
+
+java.util.LinkedList.removeFirst()Ljava/lang/Object;
+called 51338 times
+recorded? yes
+
+org.apache.commons.pool.impl.TestGenericObjectPool$SimpleFactory.setMaxActive(I)V
+called 1 times
+recorded? yes
+
+org.apache.commons.pool.BaseObjectPool.assertOpen()V
+called 107419 times
+recorded? yes
+
+org.apache.commons.pool.impl.GenericObjectPool$Latch.access$200(Lorg/apache/commons/pool/impl/GenericObjectPool$Latch;)Z
+called 68002 times
+recorded? yes
+
+org.apache.commons.pool.impl.CursorableLinkedList.toArray()[Ljava/lang/Object;
+called 145592 times
+recorded? yes
+
+org.apache.commons.pool.impl.GenericObjectPool.getNumActive()I
+called 11791 times
+recorded? yes
+
+java.util.ArrayList$Itr.<init>(Ljava/util/ArrayList;)V
+called 631693 times
+recorded? yes
+
+org.apache.commons.pool.impl.GenericObjectPool$Latch.<init>(Lorg/apache/commons/pool/impl/GenericObjectPool$1;)V
+called 693 times
+recorded? yes
+
+java.lang.Thread.initThreadLocals(Ljava/lang/Thread;)V
+called 2 times
+recorded? yes
+
+java.util.ArrayList.<init>()V
+called 145593 times
+recorded? yes
+
+java.lang.Thread.getThreadGroup()Ljava/lang/ThreadGroup;
+called 2 times
+recorded? yes
+
+org.apache.commons.pool.impl.CursorableLinkedList$Listable.next()Lorg/apache/commons/pool/impl/CursorableLinkedList$Listable;
+called 2982905 times
+recorded? yes
+
+org.apache.commons.pool.impl.CursorableLinkedList.broadcastListableInserted(Lorg/apache/commons/pool/impl/CursorableLinkedList$Listable;)V
+called 203844 times
+recorded? yes
+
+org.apache.commons.pool.impl.CursorableLinkedList.<init>()V
+called 1 times
+recorded? no
+
+org.apache.commons.pool.impl.CursorableLinkedList.broadcastListableRemoved(Lorg/apache/commons/pool/impl/CursorableLinkedList$Listable;)V
+called 278387 times
+recorded? yes
+
+org.apache.commons.pool.impl.CursorableLinkedList.clear()V
+called 145592 times
+recorded? yes
+
+org.apache.commons.pool.BaseObjectPool.<init>()V
+called 1 times
+recorded? yes
+
+java.lang.ref.Reference.get()Ljava/lang/Object;
+called 3642 times
+recorded? yes
+
+org.apache.commons.pool.impl.GenericObjectPool.ensureMinIdle()V
+called 1156 times
+recorded? no
+
+java.util.ArrayList$Itr.checkForComodification()V
+called 149030 times
+recorded? yes
+
+org.apache.commons.pool.impl.CursorableLinkedList$ListIter.checkForComod()V
+called 727960 times
+recorded? yes
+
+java.lang.Thread$Permit.<init>()V
+called 2 times
+recorded? yes
+
+org.apache.commons.pool.impl.CursorableLinkedList.registerCursor(Lorg/apache/commons/pool/impl/CursorableLinkedList$Cursor;)V
+called 7 times
+recorded? no
+
+org.apache.commons.pool.impl.CursorableLinkedList.size()I
+called 212551 times
+recorded? yes
+
+org.apache.commons.pool.impl.TestGenericObjectPool$TestThread.run()V
+called 28 times
+recorded? no
+
+java.util.LinkedList.<init>()V
+called 1 times
+recorded? no
+
+org.apache.commons.pool.impl.CursorableLinkedList$ListIter.hasPrevious()Z
+called 3907 times
+recorded? yes
+
+org.apache.commons.pool.BaseObjectPool.close()V
+called 145592 times
+recorded? yes
+
+org.apache.commons.pool.impl.TestGenericObjectPool$SimpleFactory.<init>(Lorg/apache/commons/pool/impl/TestGenericObjectPool;)V
+called 1 times
+recorded? no
+
+org.apache.commons.pool.impl.GenericObjectPool.<init>(Lorg/apache/commons/pool/PoolableObjectFactory;)V
+called 1 times
+recorded? no
+
+java.lang.Thread.getPriority()I
+called 2 times
+recorded? yes
+
+org.apache.commons.pool.impl.TestGenericObjectPool$SimpleFactory.<init>(Lorg/apache/commons/pool/impl/TestGenericObjectPool;Z)V
+called 1 times
+recorded? no
+
+org.apache.commons.pool.impl.GenericObjectPool.getMinIdle()I
+called 7866 times
+recorded? yes
+
+org.apache.commons.pool.impl.GenericObjectPool.<init>(Lorg/apache/commons/pool/PoolableObjectFactory;IBJIIZZJIJZ)V
+called 1 times
+recorded? no
+
+org.apache.commons.pool.impl.GenericObjectPool$Latch.mayCreate()Z
+called 85989 times
+recorded? yes
+
+org.apache.commons.pool.impl.CursorableLinkedList$ListIter.<init>(Lorg/apache/commons/pool/impl/CursorableLinkedList;I)V
+called 145768 times
+recorded? yes
+
+org.apache.commons.pool.impl.CursorableLinkedList$Cursor.checkForComod()V
+called 9765 times
+recorded? yes
+
+org.apache.commons.pool.impl.GenericObjectPool.getNumTests()I
+called 7 times
+recorded? no
+
+org.apache.commons.pool.impl.GenericObjectPool.getNumIdle()I
+called 20635 times
+recorded? yes
+
+org.apache.commons.pool.impl.GenericObjectPool.getSoftMinEvictableIdleTimeMillis()J
+called 1541 times
+recorded? yes
+
+org.apache.commons.pool.impl.TestGenericObjectPool$SimpleFactory.destroyObject(Ljava/lang/Object;)V
+called 145592 times
+recorded? yes
+
+org.apache.commons.pool.impl.GenericObjectPool.allocate()V
+called 498184 times
+recorded? yes
+
+org.apache.commons.pool.impl.GenericObjectPool.destroy(Ljava/util/Collection;Lorg/apache/commons/pool/PoolableObjectFactory;)V
+called 145592 times
+recorded? yes
+
+org.apache.commons.pool.impl.GenericObjectPool.setMaxActive(I)V
+called 1 times
+recorded? no
+
+org.apache.commons.pool.impl.CursorableLinkedList$Listable.<init>(Lorg/apache/commons/pool/impl/CursorableLinkedList$Listable;Lorg/apache/commons/pool/impl/CursorableLinkedList$Listable;Ljava/lang/Object;)V
+called 344737 times
+recorded? yes
+
+org.apache.commons.pool.impl.GenericObjectPool$Latch.setPair(Lorg/apache/commons/pool/impl/GenericObjectPool$ObjectTimestampPair;)V
+called 152039 times
+recorded? yes
+
+org.apache.commons.pool.impl.CursorableLinkedList$ListIter.next()Ljava/lang/Object;
+called 145592 times
+recorded? yes
+
+org.apache.commons.pool.impl.GenericObjectPool$Latch.access$100(Lorg/apache/commons/pool/impl/GenericObjectPool$Latch;)Lorg/apache/commons/pool/impl/GenericObjectPool$ObjectTimestampPair;
+called 796737 times
+recorded? yes
+
+org.apache.commons.pool.impl.GenericObjectPool.calculateDeficit(Z)I
+called 44 times
+recorded? no
+
+java.util.LinkedList.size()I
+called 728291 times
+recorded? yes
+
+org.apache.commons.pool.impl.CursorableLinkedList.removeFirst()Ljava/lang/Object;
+called 74655 times
+recorded? yes
+
+org.apache.commons.pool.impl.TestGenericObjectPool$SimpleFactory.activateObject(Ljava/lang/Object;)V
+called 198939 times
+recorded? yes
+
+org.apache.commons.pool.impl.GenericObjectPool$Latch.access$500(Lorg/apache/commons/pool/impl/GenericObjectPool$Latch;Z)V
+called 1320 times
+recorded? yes
+
+java.util.ArrayList$Itr.hasNext()Z
+called 780983 times
+recorded? yes
+
+org.apache.commons.pool.impl.GenericObjectPool$Latch.setMayCreate(Z)V
+called 1367 times
+recorded? yes
+
+org.apache.commons.pool.impl.GenericObjectPool.<init>(Lorg/apache/commons/pool/PoolableObjectFactory;IBJIIZZJIJZJ)V
+called 1 times
+recorded? no
+
+org.apache.commons.pool.impl.TestGenericObjectPool$TestThread.failed()Z
+called 145592 times
+recorded? yes
+
+java.util.AbstractSequentialList.<init>()V
+called 1 times
+recorded? no
+
+org.apache.commons.pool.impl.GenericObjectPool.getMaxActive()I
+called 10650 times
+recorded? yes
+
+org.apache.commons.pool.impl.CursorableLinkedList.iterator()Ljava/util/Iterator;
+called 145592 times
+recorded? yes
+
+org.apache.commons.pool.impl.GenericObjectPool.setMinIdle(I)V
+called 1 times
+recorded? no
+
+org.apache.commons.pool.impl.GenericObjectPool.startEvictor(J)V
+called 145593 times
+recorded? yes
+
+org.apache.commons.pool.impl.CursorableLinkedList.isEmpty()Z
+called 518825 times
+recorded? yes
+
+org.apache.commons.pool.impl.CursorableLinkedList.removeListable(Lorg/apache/commons/pool/impl/CursorableLinkedList$Listable;)V
+called 238804 times
+recorded? yes
+
+java.util.LinkedList.linkLast(Ljava/lang/Object;)V
+called 11930 times
+recorded? yes
+
+java.util.LinkedList.unlinkFirst(Ljava/util/LinkedList$Node;)Ljava/lang/Object;
+called 54041 times
+recorded? yes
+
+org.apache.commons.pool.impl.TestGenericObjectPool$1.<init>(Lorg/apache/commons/pool/impl/TestGenericObjectPool;Lorg/apache/commons/pool/impl/GenericObjectPool;)V
+called 1 times
+recorded? yes
+
+java.util.ArrayList.access$100(Ljava/util/ArrayList;)I
+called 930081 times
+recorded? yes
+
+org.apache.commons.pool.impl.GenericObjectPool$Latch.getPair()Lorg/apache/commons/pool/impl/GenericObjectPool$ObjectTimestampPair;
+called 830386 times
+recorded? yes
+
+java.util.LinkedList.add(Ljava/lang/Object;)Z
+called 11930 times
+recorded? yes
+
+org.apache.commons.pool.impl.GenericObjectPool.getTestWhileIdle()Z
+called 1649 times
+recorded? yes
+
+java.util.ArrayList.iterator()Ljava/util/Iterator;
+called 631693 times
+recorded? yes
+
+org.apache.commons.pool.impl.TestGenericObjectPool$1.run()V
+called 123 times
+recorded? no
+
+java.util.AbstractCollection.isEmpty()Z
+called 728291 times
+recorded? yes
+
+org.apache.commons.pool.impl.GenericObjectPool.addObject()V
+called 56 times
+recorded? no
+
+java.util.AbstractList.<init>()V
+called 145594 times
+recorded? yes
+
+org.apache.commons.pool.impl.CursorableLinkedList$Listable.setNext(Lorg/apache/commons/pool/impl/CursorableLinkedList$Listable;)V
+called 761003 times
+recorded? yes
+
+org.apache.commons.pool.impl.TestGenericObjectPool$SimpleFactory.makeObject()Ljava/lang/Object;
+called 56 times
+recorded? no
+
+org.apache.commons.pool.impl.GenericObjectPool$Latch.<init>()V
+called 693 times
+recorded? yes
+
+java.util.ArrayList$Itr.<init>(Ljava/util/ArrayList;Ljava/util/ArrayList$1;)V
+called 631693 times
+recorded? yes
+
+org.apache.commons.pool.impl.CursorableLinkedList$Cursor.add(Ljava/lang/Object;)V
+called 1811 times
+recorded? yes
+
+org.apache.commons.pool.impl.CursorableLinkedList$ListIter.previous()Ljava/lang/Object;
+called 3353 times
+recorded? yes
+
+org.apache.commons.pool.impl.GenericObjectPool.evict()V
+called 123 times
+recorded? no
+
+java.lang.Thread.isDaemon()Z
+called 2 times
+recorded? yes
+
+org.apache.commons.pool.impl.GenericObjectPool$Latch.access$300(Lorg/apache/commons/pool/impl/GenericObjectPool$Latch;Lorg/apache/commons/pool/impl/GenericObjectPool$ObjectTimestampPair;)V
+called 138675 times
+recorded? yes
+
+org.apache.commons.pool.impl.TestGenericObjectPool$SimpleFactory.<init>(Lorg/apache/commons/pool/impl/TestGenericObjectPool;ZZ)V
+called 1 times
+recorded? yes
+
+org.apache.commons.pool.impl.CursorableLinkedList$ListIter.remove()V
+called 146286 times
+recorded? yes
+
+org.apache.commons.pool.impl.CursorableLinkedList.listIterator(I)Ljava/util/ListIterator;
+called 145592 times
+recorded? yes
+
+org.apache.commons.pool.impl.GenericObjectPool$ObjectTimestampPair.<init>(Ljava/lang/Object;J)V
+called 191541 times
+recorded? yes
+
+java.lang.ref.WeakReference.<init>(Ljava/lang/Object;)V
+called 232 times
+recorded? yes
+
+org.apache.commons.pool.impl.CursorableLinkedList$ListIter.hasNext()Z
+called 436776 times
+recorded? yes
+
+org.apache.commons.pool.impl.GenericObjectPool.<init>(Lorg/apache/commons/pool/PoolableObjectFactory;IBJIIZZJIJZJZ)V
+called 1 times
+recorded? no
+
+org.apache.commons.pool.impl.CursorableLinkedList$Cursor.listableRemoved(Lorg/apache/commons/pool/impl/CursorableLinkedList$Listable;)V
+called 1075 times
+recorded? yes
+
+java.util.LinkedList$Node.<init>(Ljava/util/LinkedList$Node;Ljava/lang/Object;Ljava/util/LinkedList$Node;)V
+called 13957 times
+recorded? yes
+
+org.apache.commons.pool.impl.CursorableLinkedList$Listable.value()Ljava/lang/Object;
+called 379952 times
+recorded? yes
+
+org.apache.commons.pool.impl.CursorableLinkedList.addFirst(Ljava/lang/Object;)Z
+called 189996 times
+recorded? yes
+
+org.apache.commons.pool.impl.TestGenericObjectPool.<init>()V
+called 1 times
+recorded? no
+
+org.apache.commons.pool.impl.CursorableLinkedList.insertListable(Lorg/apache/commons/pool/impl/CursorableLinkedList$Listable;Lorg/apache/commons/pool/impl/CursorableLinkedList$Listable;Ljava/lang/Object;)Lorg/apache/commons/pool/impl/CursorableLinkedList$Listable;
+called 195168 times
+recorded? yes
+
+java.util.AbstractCollection.<init>()V
+called 145594 times
+recorded? yes
+
+java.util.ArrayList$Itr.next()Ljava/lang/Object;
+called 149030 times
+recorded? yes
+
+java.lang.ref.Reference.<init>(Ljava/lang/Object;)V
+called 232 times
+recorded? yes
+
+org.apache.commons.pool.impl.CursorableLinkedList$Cursor.listableInserted(Lorg/apache/commons/pool/impl/CursorableLinkedList$Listable;)V
+called 2567 times
+recorded? yes
+
+org.apache.commons.pool.impl.TestGenericObjectPool$SimpleFactory.setMakeLatency(J)V
+called 1 times
+recorded? yes
+
+org.apache.commons.pool.impl.TestGenericObjectPool.testEvictAddObjectsImproved()V
+called 1 times
+recorded? no
+
+org.apache.commons.pool.impl.CursorableLinkedList$Listable.setPrev(Lorg/apache/commons/pool/impl/CursorableLinkedList$Listable;)V
+called 775890 times
+recorded? yes
+
+org.apache.commons.pool.impl.GenericObjectPool.getMinEvictableIdleTimeMillis()J
+called 2758 times
+recorded? yes
+
+org.apache.commons.pool.impl.CursorableLinkedList$Cursor.<init>(Lorg/apache/commons/pool/impl/CursorableLinkedList;I)V
+called 7 times
+recorded? no
+
+org.apache.commons.pool.impl.CursorableLinkedList$Listable.prev()Lorg/apache/commons/pool/impl/CursorableLinkedList$Listable;
+called 1716370 times
+recorded? yes
+
+java.util.ArrayList.add(Ljava/lang/Object;)Z
+called 7 times
+recorded? no
+
+
+We called 114 methods.
+89 of these were recorded.
+
+Total number of method calls 27722474
+Potentially replaced calls 23340682
+Static calls 3840582
+Virtual calls 14103668
+Special calls 6617839
+Interface calls 3160385
+
+
+====================================================== results
+no errors detected
+
+====================================================== statistics
+elapsed time:       00:05:10
+states:             new=2152587,visited=1828722,backtracked=3981309,end=145592
+search:             maxDepth=224,constraints=0
+choice generators:  thread=2152586 (signal=29760,lock=424541,sharedRef=1135397,threadApi=202400,reschedule=360488), data=0
+heap:               new=3261192,released=6583492,maxLive=476,gcCycles=3739687
+instructions:       248160677
+max memory:         414MB
+loaded code:        classes=92,methods=2127
+
+====================================================== search finished: 9/26/17 11:30 AM\n
