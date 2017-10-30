@@ -14,12 +14,11 @@ if [[ ! -d "../experiments/${target_dir}" ]]; then
 fi
 
 echo "${target_dir}" >> output
+experiment_path="../experiments"
 
-cd "../experiments/${target_dir}/scripts"
-
-
-./install.sh orig && ./runJPF.sh orig default | 
+${experiment_path}/${target_dir}/scripts/install.sh orig &> /dev/null
+${experiment_path}/${target_dir}/scripts/runJPF.sh orig default | 
   grep "native-method-list:*" |
   ruby "${script_dir}/count_native_methods.rb" |
-  sort | uniq -c | sort >> "${script_dir}/output"
+  sort | uniq -c | sort >> output
 
