@@ -11,6 +11,6 @@ for dir in "${array[@]}"; do
   #statements
   echo "running " ${dir}
   ${experiment_path}/${dir}/scripts/install.sh orig &> /dev/null
-  #echo ${dir} >> ${result} 
+  echo ${dir} >> ${result} 
   time ${experiment_path}/${dir}/scripts/runJPF.sh orig default >> ${result}
 done
