@@ -63,7 +63,26 @@ Dir.foreach(path) do |filename|
   experiments << exp
 end
 
-puts "experiment_name recorded_methods total_methods matches calls_to_summarised"
-results.sort.each do |res|
-  puts res
+#puts "experiment_name recorded_methods total_methods matches calls_to_summarised"
+#results.sort.each do |res|
+#  puts res
+#end
+
+reasons = ['<clinit>','<init>','array type','blacklisted','native method','shared field read','static read', 'transition or lock']
+
+print " \t"
+print reasons.join("\t")
+puts
+experiments.sort_by {|exp| exp.experiment_name }.each do |exp|
+  print "#{exp.experiment_name}"
+  interruptions = exp.method_stats.find_all { |ms| not ms.recorded }.group_by { |ms| ms.interruption }
+  reasons.each do |reason|
+    if interruptions[reason].nil?
+      print "\t0"
+    else
+      print "\t#{interruptions[reason].size}"
+    end
+  end
+  puts
 end
+
