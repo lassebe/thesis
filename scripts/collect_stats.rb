@@ -1,7 +1,7 @@
 require "rubygems"
 require "json"
 
-path='/home/lasse/thesis/scripts/stats/'
+path='/home/lasse/thesis/scripts/stats-fixed/'
 
 class MethodStats
   attr_reader :method_name, :totalCalls, :recorded, :argsMatchCount, :interruption
@@ -63,10 +63,10 @@ Dir.foreach(path) do |filename|
   experiments << exp
 end
 
-#puts "experiment_name recorded_methods total_methods matches calls_to_summarised"
-#results.sort.each do |res|
-#  puts res
-#end
+puts "experiment_name recorded_methods total_methods matches calls_to_summarised"
+results.sort.each do |res|
+  puts res
+end
 
 reasons = ['<clinit>','<init>','array type','blacklisted','native method','shared field read','static read', 'transition or lock']
 

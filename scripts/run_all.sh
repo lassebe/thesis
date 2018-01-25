@@ -1,8 +1,9 @@
 
 #airline piper  takes a "long" time
-array=( account alarmclock boundedBuffer clean deadlock diningPhilosophers groovy lang linkedlist log4j1 log4j2 log4j3 loseNotify pool1 pool2 pool3 pool4 pool5 pool6 producerconsumer sleepingBarber twoStage  )
+#array=( account alarmclock boundedBuffer clean deadlock diningPhilosophers groovy lang linkedlist log4j1 log4j2 log4j3 loseNotify pool1 pool2 pool3 pool4 pool5 pool6 producerconsumer sleepingBarber twoStage  )
+array=(  alarmclock boundedBuffer clean deadlock groovy lang loseNotify pool3 pool4 pool6  sleepingBarber twoStage  )
 experiment_path="../experiments"
-result="stats"
+result="stats-stateless"
 rm ${result}
 touch ${result}
 
