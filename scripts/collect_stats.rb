@@ -1,7 +1,9 @@
 require "rubygems"
 require "json"
 
-path='/home/lasse/thesis/scripts/stats-fixed/'
+target = STDIN.gets
+# orig fixed stateless-orig 
+path="/home/lasse/thesis/scripts/stats/#{target}/"
 
 class MethodStats
   attr_reader :method_name, :totalCalls, :recorded, :argsMatchCount, :interruption
