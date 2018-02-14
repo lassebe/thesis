@@ -1,0 +1,61 @@
+====================================================== statistics
+elapsed time:       00:01:00
+states:             new=100776,visited=155575,backtracked=255794,end=1248
+search:             maxDepth=691,constraints=0
+choice generators:  thread=100765 (signal=2851,lock=11707,sharedRef=75619,threadApi=5,reschedule=10583), data=0
+heap:               new=79103,released=264109,maxLive=641,gcCycles=249697
+instructions:       7303002
+max memory:         413MB
+loaded code:        classes=115,methods=1982
+
+====================================================== statistics
+elapsed time:       00:05:00
+states:             new=415291,visited=843534,backtracked=1258241,end=1609
+search:             maxDepth=794,constraints=0
+choice generators:  thread=415275 (signal=17809,lock=59124,sharedRef=302789,threadApi=5,reschedule=35548), data=0
+heap:               new=257470,released=2567858,maxLive=652,gcCycles=1219862
+instructions:       27634922
+max memory:         413MB
+loaded code:        classes=115,methods=1982
+
+====================================================== statistics
+elapsed time:       00:10:00
+states:             new=812436,visited=1706250,backtracked=2517589,end=2225
+search:             maxDepth=2272,constraints=0
+choice generators:  thread=812416 (signal=38571,lock=119334,sharedRef=590042,threadApi=5,reschedule=64464), data=0
+heap:               new=461194,released=5401432,maxLive=652,gcCycles=2434042
+instructions:       51228422
+max memory:         413MB
+loaded code:        classes=115,methods=1982
+
+====================================================== statistics
+elapsed time:       00:15:00
+states:             new=1185161,visited=2526083,backtracked=3710160,end=2973
+search:             maxDepth=2307,constraints=0
+choice generators:  thread=1185137 (signal=59289,lock=174736,sharedRef=859607,threadApi=5,reschedule=91500), data=0
+heap:               new=643835,released=8332948,maxLive=652,gcCycles=3577418
+instructions:       72117006
+max memory:         413MB
+loaded code:        classes=115,methods=1982
+
+====================================================== statistics
+elapsed time:       00:20:00
+states:             new=1645086,visited=3535181,backtracked=5179148,end=3795
+search:             maxDepth=2307,constraints=0
+choice generators:  thread=1645057 (signal=85439,lock=244191,sharedRef=1193432,threadApi=5,reschedule=121990), data=0
+heap:               new=901102,released=11752414,maxLive=652,gcCycles=4990109
+instructions:       100358472
+max memory:         413MB
+loaded code:        classes=115,methods=1982
+
+====================================================== statistics
+elapsed time:       00:25:00
+states:             new=2083666,visited=4512782,backtracked=6595261,end=4593
+search:             maxDepth=2307,constraints=0
+choice generators:  thread=2083632 (signal=109766,lock=310138,sharedRef=1511360,threadApi=5,reschedule=152363), data=0
+heap:               new=1121649,released=15220361,maxLive=652,gcCycles=6347482
+instructions:       125569163
+max memory:         413MB
+loaded code:        classes=115,methods=1982
+
+====================================================== search finished: 2/14/18 2:31 PM

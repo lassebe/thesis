@@ -1,0 +1,69 @@
+Vanilla
+====================================================== statistics
+elapsed time:       00:01:00
+states:             new=103913,visited=160718,backtracked=264130,end=1249
+search:             maxDepth=691,constraints=0
+choice generators:  thread=103902 (signal=2884,lock=12024,sharedRef=77850,threadApi=5,reschedule=11139), data=0
+heap:               new=89479,released=284327,maxLive=645,gcCycles=257888
+instructions:       7526847
+max memory:         413MB
+loaded code:        classes=115,methods=1982
+
+Summaries
+====================================================== statistics
+elapsed time:       00:01:00
+states:             new=101581,visited=156355,backtracked=257296,end=1356
+search:             maxDepth=1170,constraints=0
+choice generators:  thread=101566 (signal=3867,lock=11740,sharedRef=74648,threadApi=5,reschedule=11306), data=0
+heap:               new=87531,released=279897,maxLive=645,gcCycles=252134
+instructions:       6981078
+max memory:         413MB
+loaded code:        classes=117,methods=2254
+
+---
+
+Vanilla
+====================================================== statistics
+elapsed time:       00:03:00
+states:             new=248109,visited=463513,backtracked=710982,end=1374
+search:             maxDepth=763,constraints=0
+choice generators:  thread=248097 (signal=8415,lock=31795,sharedRef=180698,threadApi=5,reschedule=27184), data=0
+heap:               new=154093,released=1303007,maxLive=652,gcCycles=691933
+instructions:       16226424
+max memory:         413MB
+loaded code:        classes=115,methods=1982
+
+Summaries
+====================================================== statistics
+elapsed time:       00:03:00
+states:             new=255051,visited=461148,backtracked=715592,end=1755
+search:             maxDepth=1182,constraints=0
+choice generators:  thread=255034 (signal=9395,lock=31461,sharedRef=184254,threadApi=5,reschedule=29919), data=0
+heap:               new=179836,released=1341137,maxLive=656,gcCycles=697287
+instructions:       16572724
+max memory:         413MB
+loaded code:        classes=117,methods=2254
+
+---
+
+Vanilla
+====================================================== statistics
+elapsed time:       00:15:00
+states:             new=1115238,visited=2391113,backtracked=3505263,end=2674
+search:             maxDepth=2307,constraints=0
+choice generators:  thread=1115214 (signal=55933,lock=166009,sharedRef=810867,threadApi=5,reschedule=82400), data=0
+heap:               new=615579,released=7756485,maxLive=652,gcCycles=3385103
+instructions:       69300398
+max memory:         413MB
+loaded code:        classes=115,methods=1982
+
+Summaries
+====================================================== statistics
+elapsed time:       00:15:00
+states:             new=1131923,visited=2417992,backtracked=3548867,end=3055
+search:             maxDepth=2307,constraints=0
+choice generators:  thread=1131895 (signal=57756,lock=166971,sharedRef=821709,threadApi=5,reschedule=85454), data=0
+heap:               new=642072,released=7884263,maxLive=656,gcCycles=3429677
+instructions:       69725737
+max memory:         413MB
+loaded code:        classes=117,methods=2254

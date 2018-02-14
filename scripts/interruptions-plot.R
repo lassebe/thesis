@@ -1,5 +1,5 @@
 library(ggplot2)
-stats <- read.table("/home/lasse/thesis/scripts/stateless-interrupt.dat", header = TRUE, row.names = NULL, check.names = FALSE)
+stats <- read.table("/home/lasse/thesis/scripts/centralised.dat", header = TRUE, row.names = NULL, check.names = FALSE)
 
 
 ggplot(stats, aes(factor(experiment), pct, fill = factor(reason))) +

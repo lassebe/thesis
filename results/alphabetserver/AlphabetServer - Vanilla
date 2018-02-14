@@ -1,0 +1,85 @@
+AlphabetServer - Vanilla
+
+====================================================== statistics
+elapsed time:       00:01:00
+states:             new=254787,visited=409106,backtracked=663258,end=746
+search:             maxDepth=878,constraints=0
+choice generators:  thread=254703 (signal=7217,lock=30480,sharedRef=188875,threadApi=12,reschedule=28119), data=0
+heap:               new=672587,released=834585,maxLive=532,gcCycles=617520
+instructions:       8393855
+max memory:         413MB
+loaded code:        classes=82,methods=1580
+
+====================================================== search finished: 2/13/18 5:16 PM
+
+====================================================== statistics
+elapsed time:       00:05:00
+states:             new=1024132,visited=2145089,backtracked=3168561,end=820
+search:             maxDepth=878,constraints=0
+choice generators:  thread=1024048 (signal=27698,lock=114028,sharedRef=774583,threadApi=12,reschedule=107727), data=0
+heap:               new=5270011,released=5329843,maxLive=532,gcCycles=2977476
+instructions:       49839008
+max memory:         413MB
+loaded code:        classes=82,methods=1580
+
+====================================================== search finished: 2/13/18 5:23 PM
+
+====================================================== statistics
+elapsed time:       00:10:00
+states:             new=1945273,visited=4228077,backtracked=6172761,end=909
+search:             maxDepth=878,constraints=0
+choice generators:  thread=1945188 (signal=52226,lock=214170,sharedRef=1476070,threadApi=12,reschedule=202710), data=0
+heap:               new=7675821,released=7913753,maxLive=532,gcCycles=5808126
+instructions:       79335056
+max memory:         412MB
+loaded code:        classes=82,methods=1580
+
+====================================================== search finished: 2/13/18 5:35 PM
+
+====================================================== statistics
+elapsed time:       00:15:00
+states:             new=3258524,visited=7193277,backtracked=10451167,end=1036
+search:             maxDepth=878,constraints=0
+choice generators:  thread=3258439 (signal=87232,lock=356985,sharedRef=2476521,threadApi=12,reschedule=337689), data=0
+heap:               new=11115108,released=11605124,maxLive=532,gcCycles=9837921
+instructions:       122660042
+max memory:         412MB
+loaded code:        classes=82,methods=1580
+
+====================================================== search finished: 2/13/18 5:52 PM
+
+====================================================== statistics
+elapsed time:       00:20:00
+states:             new=4317169,visited=9586681,backtracked=13903313,end=1138
+search:             maxDepth=878,constraints=0
+choice generators:  thread=4317084 (signal=115646,lock=471948,sharedRef=3282832,threadApi=12,reschedule=446646), data=0
+heap:               new=15046209,released=15740469,maxLive=532,gcCycles=12924316
+instructions:       168032554
+max memory:         413MB
+loaded code:        classes=82,methods=1580
+
+====================================================== search finished: 2/13/18 6:13 PM
+
+====================================================== statistics
+elapsed time:       00:25:00
+states:             new=5432792,visited=12106787,backtracked=17538957,end=1247
+search:             maxDepth=878,constraints=0
+choice generators:  thread=5432708 (signal=145160,lock=593288,sharedRef=4132510,threadApi=12,reschedule=561738), data=0
+heap:               new=17958066,released=18869672,maxLive=532,gcCycles=16349718
+instructions:       204713582
+max memory:         413MB
+loaded code:        classes=82,methods=1580
+
+====================================================== search finished: 2/13/18 6:39 PM
+
+====================================================== statistics
+elapsed time:       00:30:00
+states:             new=6584133,visited=14708772,backtracked=21292322,end=1358
+search:             maxDepth=878,constraints=0
+choice generators:  thread=6584048 (signal=175893,lock=718464,sharedRef=5009665,threadApi=12,reschedule=680014), data=0
+heap:               new=22475939,released=23253981,maxLive=532,gcCycles=19720052
+instructions:       252901743
+max memory:         438MB
+loaded code:        classes=82,methods=1580
+
+====================================================== search finished: 2/13/18 7:10 PM
