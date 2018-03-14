@@ -1,7 +1,7 @@
 require "rubygems"
 require "json"
 
-target = "centralised"#STDIN.gets
+target = "stateless-orig"#STDIN.gets
 # orig fixed stateless-orig 
 path="/home/lasse/thesis/scripts/stats/#{target}/"
 
@@ -71,7 +71,7 @@ end
 #  puts res
 #end
 
-reasons = ['<clinit>','<init>','array type','blacklisted','native method','shared field read','static read', 'transition or lock']
+reasons = ['<clinit>','<init>','array type','blacklisted','native method','shared field read','shared field write','static read', 'transition or lock']
 
 
 puts "id experiment reason pct"
@@ -80,7 +80,6 @@ i = 0
 experiments.sort_by {|exp| exp.experiment_name }.each do |exp|
   interruptions = exp.method_stats.find_all { |ms| not ms.recorded }.group_by { |ms| ms.interruption }
   total_interrupted = interruptions.values.inject(0) {|sum, inter| sum + inter.size  }
-  puts " Total = #{total_interrupted}"
   reasons.each do |reason|
     print "#{i} #{exp.experiment_name} \"#{reason}\""
     if interruptions[reason].nil?
