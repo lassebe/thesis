@@ -1,0 +1,9 @@
+id type exper mean se
+10 jpf-core alarmclock-orig 20950.4 155.4848228371944
+11 jpf-summary alarmclock-orig 22196.2 162.50541862671602
+12 jpf-core groovy-orig 31786.2 339.2393738777847
+13 jpf-summary groovy-orig 34923.6 326.09600442187354
+14 jpf-core lang-orig 116648.6 1000.0073096053832
+15 jpf-summary lang-orig 125244.6 3262.162416881881
+16 jpf-core pool3-orig 386734.6 5230.354208548844
+17 jpf-summary pool3-orig 320813.3 2368.024947943865

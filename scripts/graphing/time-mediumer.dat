@@ -1,0 +1,7 @@
+id type exper mean se
+52 jpf-core pool5-orig 28818.2 255.78387056422318
+53 jpf-summary pool5-orig 29633.9 455.4270328350865
+38 jpf-core log4j3-orig 1474.0 65.04724845633588
+39 jpf-summary log4j3-orig 1758.4 94.00897409401767
+50 jpf-core log4j1-fixed 22358.4 225.06006234726948
+51 jpf-summary log4j1-fixed 24751.6 198.9910935453972

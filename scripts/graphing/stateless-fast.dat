@@ -1,0 +1,11 @@
+id type exper mean se
+0 jpf-core loseNotify-orig 85.8 3.5713047682491035
+1 jpf-summmary loseNotify-orig 96.8 4.187280230986752
+2 jpf-core sleepingBarber-orig 105.3 3.380645617469458
+3 jpf-summmary sleepingBarber-orig 110.4 4.859190362869468
+4 jpf-core boundedBuffer-orig 130.5 2.3861783690250453
+5 jpf-summmary boundedBuffer-orig 130.2 3.9580905222575757
+6 jpf-core deadlock-orig 173.7 7.009909759015828
+7 jpf-summmary deadlock-orig 172.2 5.632163250125067
+8 jpf-core twoStage-orig 425.6 21.200805774735574
+9 jpf-summmary twoStage-orig 464.3 14.580772290964317

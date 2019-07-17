@@ -1,0 +1,82 @@
+id experiment reason pct
+0 stateless-alarmclock "<clinit>" 0.0
+1 stateless-alarmclock "<init>" 0.3684210526315789
+2 stateless-alarmclock "array type" 0.0
+3 stateless-alarmclock "blacklisted" 0.05263157894736842
+4 stateless-alarmclock "native method" 0.18421052631578946
+5 stateless-alarmclock "shared field read" 0.0
+6 stateless-alarmclock "shared field write" 0.0
+7 stateless-alarmclock "static read" 0.0
+8 stateless-alarmclock "transition or lock" 0.39473684210526316
+9 stateless-boundedBuffer "<clinit>" 0.0
+10 stateless-boundedBuffer "<init>" 0.44
+11 stateless-boundedBuffer "array type" 0.0
+12 stateless-boundedBuffer "blacklisted" 0.08
+13 stateless-boundedBuffer "native method" 0.2
+14 stateless-boundedBuffer "shared field read" 0.0
+15 stateless-boundedBuffer "shared field write" 0.0
+16 stateless-boundedBuffer "static read" 0.0
+17 stateless-boundedBuffer "transition or lock" 0.28
+18 stateless-deadlock "<clinit>" 0.0
+19 stateless-deadlock "<init>" 0.4444444444444444
+20 stateless-deadlock "array type" 0.0
+21 stateless-deadlock "blacklisted" 0.05555555555555555
+22 stateless-deadlock "native method" 0.2777777777777778
+23 stateless-deadlock "shared field read" 0.0
+24 stateless-deadlock "shared field write" 0.0
+25 stateless-deadlock "static read" 0.1111111111111111
+26 stateless-deadlock "transition or lock" 0.1111111111111111
+27 stateless-groovy "<clinit>" 0.0
+28 stateless-groovy "<init>" 0.39473684210526316
+29 stateless-groovy "array type" 0.0
+30 stateless-groovy "blacklisted" 0.05263157894736842
+31 stateless-groovy "native method" 0.13157894736842105
+32 stateless-groovy "shared field read" 0.15789473684210525
+33 stateless-groovy "shared field write" 0.0
+34 stateless-groovy "static read" 0.0
+35 stateless-groovy "transition or lock" 0.2631578947368421
+36 stateless-lang "<clinit>" 0.0
+37 stateless-lang "<init>" 0.4642857142857143
+38 stateless-lang "array type" 0.0
+39 stateless-lang "blacklisted" 0.03571428571428571
+40 stateless-lang "native method" 0.32142857142857145
+41 stateless-lang "shared field read" 0.0
+42 stateless-lang "shared field write" 0.0
+43 stateless-lang "static read" 0.0
+44 stateless-lang "transition or lock" 0.17857142857142858
+45 stateless-loseNotify "<clinit>" 0.041666666666666664
+46 stateless-loseNotify "<init>" 0.375
+47 stateless-loseNotify "array type" 0.0
+48 stateless-loseNotify "blacklisted" 0.041666666666666664
+49 stateless-loseNotify "native method" 0.25
+50 stateless-loseNotify "shared field read" 0.0
+51 stateless-loseNotify "shared field write" 0.0
+52 stateless-loseNotify "static read" 0.125
+53 stateless-loseNotify "transition or lock" 0.16666666666666666
+54 stateless-pool3 "<clinit>" 0.02912621359223301
+55 stateless-pool3 "<init>" 0.4368932038834951
+56 stateless-pool3 "array type" 0.038834951456310676
+57 stateless-pool3 "blacklisted" 0.11650485436893204
+58 stateless-pool3 "native method" 0.10679611650485436
+59 stateless-pool3 "shared field read" 0.0
+60 stateless-pool3 "shared field write" 0.0
+61 stateless-pool3 "static read" 0.0
+62 stateless-pool3 "transition or lock" 0.27184466019417475
+63 stateless-sleepingBarber "<clinit>" 0.0
+64 stateless-sleepingBarber "<init>" 0.36363636363636365
+65 stateless-sleepingBarber "array type" 0.0
+66 stateless-sleepingBarber "blacklisted" 0.045454545454545456
+67 stateless-sleepingBarber "native method" 0.22727272727272727
+68 stateless-sleepingBarber "shared field read" 0.0
+69 stateless-sleepingBarber "shared field write" 0.0
+70 stateless-sleepingBarber "static read" 0.0
+71 stateless-sleepingBarber "transition or lock" 0.36363636363636365
+72 stateless-twoStage "<clinit>" 0.0
+73 stateless-twoStage "<init>" 0.5
+74 stateless-twoStage "array type" 0.0
+75 stateless-twoStage "blacklisted" 0.03333333333333333
+76 stateless-twoStage "native method" 0.26666666666666666
+77 stateless-twoStage "shared field read" 0.0
+78 stateless-twoStage "shared field write" 0.0
+79 stateless-twoStage "static read" 0.0
+80 stateless-twoStage "transition or lock" 0.2

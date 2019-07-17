@@ -1,0 +1,280 @@
+id experiment reason pct
+0 account "<clinit>" 0.03225806451612903
+1 account "<init>" 0.3870967741935484
+2 account "array type" 0.0
+3 account "blacklisted" 0.03225806451612903
+4 account "native method" 0.25806451612903225
+5 account "shared field read" 0.0
+6 account "shared field write" 0.0
+7 account "static read" 0.03225806451612903
+8 account "transition or lock" 0.25806451612903225
+9 alarmclock "<clinit>" 0.0
+10 alarmclock "<init>" 0.3684210526315789
+11 alarmclock "array type" 0.0
+12 alarmclock "blacklisted" 0.05263157894736842
+13 alarmclock "native method" 0.18421052631578946
+14 alarmclock "shared field read" 0.0
+15 alarmclock "shared field write" 0.0
+16 alarmclock "static read" 0.0
+17 alarmclock "transition or lock" 0.39473684210526316
+18 boundedBuffer "<clinit>" 0.0
+19 boundedBuffer "<init>" 0.44
+20 boundedBuffer "array type" 0.0
+21 boundedBuffer "blacklisted" 0.08
+22 boundedBuffer "native method" 0.2
+23 boundedBuffer "shared field read" 0.0
+24 boundedBuffer "shared field write" 0.0
+25 boundedBuffer "static read" 0.0
+26 boundedBuffer "transition or lock" 0.28
+27 clean "<clinit>" 0.0
+28 clean "<init>" 0.4
+29 clean "array type" 0.0
+30 clean "blacklisted" 0.04
+31 clean "native method" 0.24
+32 clean "shared field read" 0.04
+33 clean "shared field write" 0.0
+34 clean "static read" 0.0
+35 clean "transition or lock" 0.28
+36 deadlock "<clinit>" 0.0
+37 deadlock "<init>" 0.4444444444444444
+38 deadlock "array type" 0.0
+39 deadlock "blacklisted" 0.05555555555555555
+40 deadlock "native method" 0.2777777777777778
+41 deadlock "shared field read" 0.0
+42 deadlock "shared field write" 0.0
+43 deadlock "static read" 0.1111111111111111
+44 deadlock "transition or lock" 0.1111111111111111
+45 diningPhilosophers "<clinit>" 0.0
+46 diningPhilosophers "<init>" 0.4117647058823529
+47 diningPhilosophers "array type" 0.0
+48 diningPhilosophers "blacklisted" 0.058823529411764705
+49 diningPhilosophers "native method" 0.35294117647058826
+50 diningPhilosophers "shared field read" 0.0
+51 diningPhilosophers "shared field write" 0.0
+52 diningPhilosophers "static read" 0.0
+53 diningPhilosophers "transition or lock" 0.17647058823529413
+54 groovy "<clinit>" 0.0
+55 groovy "<init>" 0.39473684210526316
+56 groovy "array type" 0.0
+57 groovy "blacklisted" 0.05263157894736842
+58 groovy "native method" 0.13157894736842105
+59 groovy "shared field read" 0.15789473684210525
+60 groovy "shared field write" 0.0
+61 groovy "static read" 0.0
+62 groovy "transition or lock" 0.2631578947368421
+63 lang "<clinit>" 0.0
+64 lang "<init>" 0.4642857142857143
+65 lang "array type" 0.0
+66 lang "blacklisted" 0.03571428571428571
+67 lang "native method" 0.32142857142857145
+68 lang "shared field read" 0.0
+69 lang "shared field write" 0.0
+70 lang "static read" 0.0
+71 lang "transition or lock" 0.17857142857142858
+72 linkedlist "<clinit>" 0.0
+73 linkedlist "<init>" 0.42105263157894735
+74 linkedlist "array type" 0.0
+75 linkedlist "blacklisted" 0.02631578947368421
+76 linkedlist "native method" 0.21052631578947367
+77 linkedlist "shared field read" 0.18421052631578946
+78 linkedlist "shared field write" 0.0
+79 linkedlist "static read" 0.0
+80 linkedlist "transition or lock" 0.15789473684210525
+81 log4j1 "<clinit>" 0.057692307692307696
+82 log4j1 "<init>" 0.5384615384615384
+83 log4j1 "array type" 0.0
+84 log4j1 "blacklisted" 0.019230769230769232
+85 log4j1 "native method" 0.15384615384615385
+86 log4j1 "shared field read" 0.019230769230769232
+87 log4j1 "shared field write" 0.0
+88 log4j1 "static read" 0.028846153846153848
+89 log4j1 "transition or lock" 0.18269230769230768
+90 log4j2 "<clinit>" 0.0761904761904762
+91 log4j2 "<init>" 0.41904761904761906
+92 log4j2 "array type" 0.01904761904761905
+93 log4j2 "blacklisted" 0.06666666666666667
+94 log4j2 "native method" 0.21904761904761905
+95 log4j2 "shared field read" 0.0
+96 log4j2 "shared field write" 0.0
+97 log4j2 "static read" 0.009523809523809525
+98 log4j2 "transition or lock" 0.19047619047619047
+99 log4j3 "<clinit>" 0.08695652173913043
+100 log4j3 "<init>" 0.3858695652173913
+101 log4j3 "array type" 0.04891304347826087
+102 log4j3 "blacklisted" 0.07608695652173914
+103 log4j3 "native method" 0.1956521739130435
+104 log4j3 "shared field read" 0.0
+105 log4j3 "shared field write" 0.0
+106 log4j3 "static read" 0.03260869565217391
+107 log4j3 "transition or lock" 0.17391304347826086
+108 loseNotify "<clinit>" 0.041666666666666664
+109 loseNotify "<init>" 0.375
+110 loseNotify "array type" 0.0
+111 loseNotify "blacklisted" 0.041666666666666664
+112 loseNotify "native method" 0.25
+113 loseNotify "shared field read" 0.0
+114 loseNotify "shared field write" 0.0
+115 loseNotify "static read" 0.125
+116 loseNotify "transition or lock" 0.16666666666666666
+117 pool1 "<clinit>" 0.023076923076923078
+118 pool1 "<init>" 0.36153846153846153
+119 pool1 "array type" 0.03076923076923077
+120 pool1 "blacklisted" 0.07692307692307693
+121 pool1 "native method" 0.13076923076923078
+122 pool1 "shared field read" 0.19230769230769232
+123 pool1 "shared field write" 0.015384615384615385
+124 pool1 "static read" 0.007692307692307693
+125 pool1 "transition or lock" 0.16153846153846155
+126 pool2 "<clinit>" 0.022388059701492536
+127 pool2 "<init>" 0.3358208955223881
+128 pool2 "array type" 0.029850746268656716
+129 pool2 "blacklisted" 0.11940298507462686
+130 pool2 "native method" 0.12686567164179105
+131 pool2 "shared field read" 0.208955223880597
+132 pool2 "shared field write" 0.0
+133 pool2 "static read" 0.007462686567164179
+134 pool2 "transition or lock" 0.14925373134328357
+135 pool3 "<clinit>" 0.02912621359223301
+136 pool3 "<init>" 0.4368932038834951
+137 pool3 "array type" 0.038834951456310676
+138 pool3 "blacklisted" 0.11650485436893204
+139 pool3 "native method" 0.10679611650485436
+140 pool3 "shared field read" 0.0
+141 pool3 "shared field write" 0.0
+142 pool3 "static read" 0.0
+143 pool3 "transition or lock" 0.27184466019417475
+144 pool4 "<clinit>" 0.014492753623188406
+145 pool4 "<init>" 0.42028985507246375
+146 pool4 "array type" 0.0
+147 pool4 "blacklisted" 0.043478260869565216
+148 pool4 "native method" 0.13043478260869565
+149 pool4 "shared field read" 0.0
+150 pool4 "shared field write" 0.0
+151 pool4 "static read" 0.0
+152 pool4 "transition or lock" 0.391304347826087
+153 pool5 "<clinit>" 0.021052631578947368
+154 pool5 "<init>" 0.49473684210526314
+155 pool5 "array type" 0.06315789473684211
+156 pool5 "blacklisted" 0.07368421052631578
+157 pool5 "native method" 0.11578947368421053
+158 pool5 "shared field read" 0.0
+159 pool5 "shared field write" 0.0
+160 pool5 "static read" 0.021052631578947368
+161 pool5 "transition or lock" 0.21052631578947367
+162 pool6 "<clinit>" 0.04065040650406504
+163 pool6 "<init>" 0.37398373983739835
+164 pool6 "array type" 0.04065040650406504
+165 pool6 "blacklisted" 0.08943089430894309
+166 pool6 "native method" 0.08943089430894309
+167 pool6 "shared field read" 0.07317073170731707
+168 pool6 "shared field write" 0.0
+169 pool6 "static read" 0.024390243902439025
+170 pool6 "transition or lock" 0.2682926829268293
+171 producerconsumer "<clinit>" 0.045454545454545456
+172 producerconsumer "<init>" 0.38636363636363635
+173 producerconsumer "array type" 0.045454545454545456
+174 producerconsumer "blacklisted" 0.045454545454545456
+175 producerconsumer "native method" 0.22727272727272727
+176 producerconsumer "shared field read" 0.0
+177 producerconsumer "shared field write" 0.0
+178 producerconsumer "static read" 0.0
+179 producerconsumer "transition or lock" 0.25
+180 sleepingBarber "<clinit>" 0.0
+181 sleepingBarber "<init>" 0.36363636363636365
+182 sleepingBarber "array type" 0.0
+183 sleepingBarber "blacklisted" 0.045454545454545456
+184 sleepingBarber "native method" 0.22727272727272727
+185 sleepingBarber "shared field read" 0.0
+186 sleepingBarber "shared field write" 0.0
+187 sleepingBarber "static read" 0.0
+188 sleepingBarber "transition or lock" 0.36363636363636365
+189 twoStage "<clinit>" 0.0
+190 twoStage "<init>" 0.5
+191 twoStage "array type" 0.0
+192 twoStage "blacklisted" 0.03333333333333333
+193 twoStage "native method" 0.26666666666666666
+194 twoStage "shared field read" 0.0
+195 twoStage "shared field write" 0.0
+196 twoStage "static read" 0.0
+197 twoStage "transition or lock" 0.2
+0 groovy-fixed "<clinit>" 0.0
+1 groovy-fixed "<init>" 0.3488372093023256
+2 groovy-fixed "array type" 0.0
+3 groovy-fixed "blacklisted" 0.09302325581395349
+4 groovy-fixed "native method" 0.11627906976744186
+5 groovy-fixed "shared field read" 0.11627906976744186
+6 groovy-fixed "shared field write" 0.0
+7 groovy-fixed "static read" 0.0
+8 groovy-fixed "transition or lock" 0.32558139534883723
+9 lang-fixed "<clinit>" 0.0
+10 lang-fixed "<init>" 0.43478260869565216
+11 lang-fixed "array type" 0.0
+12 lang-fixed "blacklisted" 0.043478260869565216
+13 lang-fixed "native method" 0.30434782608695654
+14 lang-fixed "shared field read" 0.0
+15 lang-fixed "shared field write" 0.0
+16 lang-fixed "static read" 0.0
+17 lang-fixed "transition or lock" 0.21739130434782608
+18 log4j1-fixed "<clinit>" 0.05442176870748299
+19 log4j1-fixed "<init>" 0.4217687074829932
+20 log4j1-fixed "array type" 0.027210884353741496
+21 log4j1-fixed "blacklisted" 0.027210884353741496
+22 log4j1-fixed "native method" 0.1836734693877551
+23 log4j1-fixed "shared field read" 0.061224489795918366
+24 log4j1-fixed "shared field write" 0.006802721088435374
+25 log4j1-fixed "static read" 0.027210884353741496
+26 log4j1-fixed "transition or lock" 0.19047619047619047
+27 log4j2-fixed "<clinit>" 0.07407407407407407
+28 log4j2-fixed "<init>" 0.4074074074074074
+29 log4j2-fixed "array type" 0.018518518518518517
+30 log4j2-fixed "blacklisted" 0.07407407407407407
+31 log4j2-fixed "native method" 0.21296296296296297
+32 log4j2-fixed "shared field read" 0.0
+33 log4j2-fixed "shared field write" 0.009259259259259259
+34 log4j2-fixed "static read" 0.018518518518518517
+35 log4j2-fixed "transition or lock" 0.18518518518518517
+36 log4j3-fixed "<clinit>" 0.08695652173913043
+37 log4j3-fixed "<init>" 0.3858695652173913
+38 log4j3-fixed "array type" 0.04891304347826087
+39 log4j3-fixed "blacklisted" 0.07608695652173914
+40 log4j3-fixed "native method" 0.1956521739130435
+41 log4j3-fixed "shared field read" 0.0
+42 log4j3-fixed "shared field write" 0.0
+43 log4j3-fixed "static read" 0.03260869565217391
+44 log4j3-fixed "transition or lock" 0.17391304347826086
+45 pool1-fixed "<clinit>" 0.015151515151515152
+46 pool1-fixed "<init>" 0.3106060606060606
+47 pool1-fixed "array type" 0.030303030303030304
+48 pool1-fixed "blacklisted" 0.07575757575757576
+49 pool1-fixed "native method" 0.09090909090909091
+50 pool1-fixed "shared field read" 0.2196969696969697
+51 pool1-fixed "shared field write" 0.015151515151515152
+52 pool1-fixed "static read" 0.007575757575757576
+53 pool1-fixed "transition or lock" 0.23484848484848486
+54 pool2-fixed "<clinit>" 0.015151515151515152
+55 pool2-fixed "<init>" 0.3106060606060606
+56 pool2-fixed "array type" 0.030303030303030304
+57 pool2-fixed "blacklisted" 0.09090909090909091
+58 pool2-fixed "native method" 0.09090909090909091
+59 pool2-fixed "shared field read" 0.2196969696969697
+60 pool2-fixed "shared field write" 0.0
+61 pool2-fixed "static read" 0.007575757575757576
+62 pool2-fixed "transition or lock" 0.23484848484848486
+63 pool3-fixed "<clinit>" 0.027777777777777776
+64 pool3-fixed "<init>" 0.4722222222222222
+65 pool3-fixed "array type" 0.037037037037037035
+66 pool3-fixed "blacklisted" 0.12962962962962962
+67 pool3-fixed "native method" 0.10185185185185185
+68 pool3-fixed "shared field read" 0.0
+69 pool3-fixed "shared field write" 0.0
+70 pool3-fixed "static read" 0.0
+71 pool3-fixed "transition or lock" 0.23148148148148148
+72 pool6-fixed "<clinit>" 0.017543859649122806
+73 pool6-fixed "<init>" 0.3684210526315789
+74 pool6-fixed "array type" 0.03508771929824561
+75 pool6-fixed "blacklisted" 0.09649122807017543
+76 pool6-fixed "native method" 0.08771929824561403
+77 pool6-fixed "shared field read" 0.07894736842105263
+78 pool6-fixed "shared field write" 0.0
+79 pool6-fixed "static read" 0.02631578947368421
+80 pool6-fixed "transition or lock" 0.2894736842105263

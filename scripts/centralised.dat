@@ -1,0 +1,17 @@
+id experiment reason pct
+0 alphabetserver "<clinit>" 0.07058823529411765
+1 alphabetserver "<init>" 0.3058823529411765
+2 alphabetserver "array type" 0.011764705882352941
+3 alphabetserver "blacklisted" 0.07058823529411765
+4 alphabetserver "native method" 0.2235294117647059
+5 alphabetserver "shared field read" 0.0
+6 alphabetserver "static read" 0.047058823529411764
+7 alphabetserver "transition or lock" 0.27058823529411763
+8 chatserver "<clinit>" 0.0875
+9 chatserver "<init>" 0.375
+10 chatserver "array type" 0.0125
+11 chatserver "blacklisted" 0.0875
+12 chatserver "native method" 0.1125
+13 chatserver "shared field read" 0.00625
+14 chatserver "static read" 0.0625
+15 chatserver "transition or lock" 0.25625

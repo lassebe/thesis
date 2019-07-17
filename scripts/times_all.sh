@@ -32,7 +32,7 @@ for experiment in "${array[@]}"; do
   # echo ${experiment} > ${result}/${experiment} 
 
   time ${experiment_path}/${experiment}/scripts/runJPF.sh orig default \
-  | grep "{Time:"  \
+    | grep "{Time:"  \
      > ${result}
   for (( i=1; i<=9; i++)) 
   do

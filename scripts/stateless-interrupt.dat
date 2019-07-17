@@ -1,0 +1,82 @@
+id experiment reason pct
+0 alarmclock "<clinit>" 0.0
+1 alarmclock "<init>" 0.3684210526315789
+2 alarmclock "array type" 0.0
+3 alarmclock "blacklisted" 0.05263157894736842
+4 alarmclock "native method" 0.18421052631578946
+5 alarmclock "shared field read" 0.0
+6 alarmclock "shared field write" 0.0
+7 alarmclock "static read" 0.0
+8 alarmclock "transition or lock" 0.39473684210526316
+9 boundedBuffer "<clinit>" 0.0
+10 boundedBuffer "<init>" 0.44
+11 boundedBuffer "array type" 0.0
+12 boundedBuffer "blacklisted" 0.08
+13 boundedBuffer "native method" 0.2
+14 boundedBuffer "shared field read" 0.0
+15 boundedBuffer "shared field write" 0.0
+16 boundedBuffer "static read" 0.0
+17 boundedBuffer "transition or lock" 0.28
+18 deadlock "<clinit>" 0.0
+19 deadlock "<init>" 0.4444444444444444
+20 deadlock "array type" 0.0
+21 deadlock "blacklisted" 0.05555555555555555
+22 deadlock "native method" 0.2777777777777778
+23 deadlock "shared field read" 0.0
+24 deadlock "shared field write" 0.0
+25 deadlock "static read" 0.1111111111111111
+26 deadlock "transition or lock" 0.1111111111111111
+27 groovy "<clinit>" 0.0
+28 groovy "<init>" 0.39473684210526316
+29 groovy "array type" 0.0
+30 groovy "blacklisted" 0.05263157894736842
+31 groovy "native method" 0.13157894736842105
+32 groovy "shared field read" 0.15789473684210525
+33 groovy "shared field write" 0.0
+34 groovy "static read" 0.0
+35 groovy "transition or lock" 0.2631578947368421
+36 lang "<clinit>" 0.0
+37 lang "<init>" 0.4642857142857143
+38 lang "array type" 0.0
+39 lang "blacklisted" 0.03571428571428571
+40 lang "native method" 0.32142857142857145
+41 lang "shared field read" 0.0
+42 lang "shared field write" 0.0
+43 lang "static read" 0.0
+44 lang "transition or lock" 0.17857142857142858
+45 loseNotify "<clinit>" 0.041666666666666664
+46 loseNotify "<init>" 0.375
+47 loseNotify "array type" 0.0
+48 loseNotify "blacklisted" 0.041666666666666664
+49 loseNotify "native method" 0.25
+50 loseNotify "shared field read" 0.0
+51 loseNotify "shared field write" 0.0
+52 loseNotify "static read" 0.125
+53 loseNotify "transition or lock" 0.16666666666666666
+54 pool3 "<clinit>" 0.02912621359223301
+55 pool3 "<init>" 0.4368932038834951
+56 pool3 "array type" 0.038834951456310676
+57 pool3 "blacklisted" 0.11650485436893204
+58 pool3 "native method" 0.10679611650485436
+59 pool3 "shared field read" 0.0
+60 pool3 "shared field write" 0.0
+61 pool3 "static read" 0.0
+62 pool3 "transition or lock" 0.27184466019417475
+63 sleepingBarber "<clinit>" 0.0
+64 sleepingBarber "<init>" 0.36363636363636365
+65 sleepingBarber "array type" 0.0
+66 sleepingBarber "blacklisted" 0.045454545454545456
+67 sleepingBarber "native method" 0.22727272727272727
+68 sleepingBarber "shared field read" 0.0
+69 sleepingBarber "shared field write" 0.0
+70 sleepingBarber "static read" 0.0
+71 sleepingBarber "transition or lock" 0.36363636363636365
+72 twoStage "<clinit>" 0.0
+73 twoStage "<init>" 0.5
+74 twoStage "array type" 0.0
+75 twoStage "blacklisted" 0.03333333333333333
+76 twoStage "native method" 0.26666666666666666
+77 twoStage "shared field read" 0.0
+78 twoStage "shared field write" 0.0
+79 twoStage "static read" 0.0
+80 twoStage "transition or lock" 0.2
