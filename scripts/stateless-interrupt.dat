@@ -24,8 +24,8 @@ id experiment reason pct
 22 deadlock "native method" 0.2777777777777778
 23 deadlock "shared field read" 0.0
 24 deadlock "shared field write" 0.0
-25 deadlock "static read" 0.1111111111111111
-26 deadlock "transition or lock" 0.1111111111111111
+25 deadlock "static read" 0.0
+26 deadlock "transition or lock" 0.2222222222222222
 27 groovy "<clinit>" 0.0
 28 groovy "<init>" 0.39473684210526316
 29 groovy "array type" 0.0
@@ -51,17 +51,17 @@ id experiment reason pct
 49 loseNotify "native method" 0.25
 50 loseNotify "shared field read" 0.0
 51 loseNotify "shared field write" 0.0
-52 loseNotify "static read" 0.125
-53 loseNotify "transition or lock" 0.16666666666666666
-54 pool3 "<clinit>" 0.02912621359223301
-55 pool3 "<init>" 0.4368932038834951
-56 pool3 "array type" 0.038834951456310676
-57 pool3 "blacklisted" 0.11650485436893204
-58 pool3 "native method" 0.10679611650485436
+52 loseNotify "static read" 0.0
+53 loseNotify "transition or lock" 0.2916666666666667
+54 pool3 "<clinit>" 0.029411764705882353
+55 pool3 "<init>" 0.43137254901960786
+56 pool3 "array type" 0.0392156862745098
+57 pool3 "blacklisted" 0.11764705882352941
+58 pool3 "native method" 0.10784313725490197
 59 pool3 "shared field read" 0.0
 60 pool3 "shared field write" 0.0
 61 pool3 "static read" 0.0
-62 pool3 "transition or lock" 0.27184466019417475
+62 pool3 "transition or lock" 0.27450980392156865
 63 sleepingBarber "<clinit>" 0.0
 64 sleepingBarber "<init>" 0.36363636363636365
 65 sleepingBarber "array type" 0.0
