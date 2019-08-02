@@ -1,3 +1,5 @@
+#!/bin/bash
+
 target=$1
 array=()
 
@@ -26,6 +28,6 @@ for experiment in "${array[@]}"; do
   echo $result
   echo "running " ${experiment}
   ${experiment_path}/${experiment}/scripts/install.sh orig &> /dev/null
-  time ${experiment_path}/${experiment}/scripts/runJPF.sh orig default |
-    grep "methodStats" > ${result} 
+  time ${experiment_path}/${experiment}/scripts/runJPF.sh orig default \
+    | grep "methodStats" > ${result} 
 done

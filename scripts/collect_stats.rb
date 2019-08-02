@@ -61,34 +61,37 @@ Dir.foreach(path) do |filename|
   
   calls_to_summarised = count_recorded(methodStats, "totalCalls")
   successful_matches = count_recorded(methodStats, "argsMatchCount")
-  results << "#{filename} #{recorded_methods} #{methodStats.size} #{successful_matches} #{calls_to_summarised}" 
+  recorded_over_total = recorded_methods.to_f / methodStats.size 
+  matched_calls = successful_matches.to_f / calls_to_summarised
+
+  results << "#{filename} #{recorded_methods} #{methodStats.size} #{successful_matches} #{calls_to_summarised} #{recorded_over_total} #{matched_calls}" 
   experiments << exp
 end
 
 
-#puts "experiment_name recorded_methods total_methods matches calls_to_summarised"
-#results.sort.each do |res|
-#  puts res
-#end
+puts "experiment  recorded   totalmethods  matches  callstosum recordedovertotal  matchedcalls"
+results.sort.each do |res|
+  puts res
+end
 
 reasons = ['<clinit>','<init>','array type','blacklisted','native method','shared field read','shared field write','static read', 'transition or lock']
 
 
-puts "id experiment reason pct"
+#puts "id experiment reason pct"
 
 i = 0
-experiments.sort_by {|exp| exp.experiment_name }.each do |exp|
-  interruptions = exp.method_stats.find_all { |ms| not ms.recorded }.group_by { |ms| ms.interruption }
-  total_interrupted = interruptions.values.inject(0) {|sum, inter| sum + inter.size  }
-  reasons.each do |reason|
-    print "#{i} #{exp.experiment_name} \"#{reason}\""
-    if interruptions[reason].nil?
-      print " 0.0"
-    else
-      print " #{interruptions[reason].size.to_f / total_interrupted}"
-    end
-    i += 1
-    puts
-  end
-end
+# experiments.sort_by {|exp| exp.experiment_name }.each do |exp|
+#   interruptions = exp.method_stats.find_all { |ms| not ms.recorded }.group_by { |ms| ms.interruption }
+#   total_interrupted = interruptions.values.inject(0) {|sum, inter| sum + inter.size  }
+#   reasons.each do |reason|
+#     print "#{i} #{exp.experiment_name} \"#{reason}\""
+#     if interruptions[reason].nil?
+#       print " 0.0"
+#     else
+#       print " #{interruptions[reason].size.to_f / total_interrupted}"
+#     end
+#     i += 1
+#     puts
+#   end
+# end
 
