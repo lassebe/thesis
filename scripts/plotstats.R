@@ -1,7 +1,7 @@
 library(ggplot2)
 library(gridExtra)
 
-stats <- read.table("/home/lasse/thesis/scripts/sir-methodstats.dat", header = TRUE, row.names = NULL, check.names = FALSE)
+stats <- read.table("/home/lasse/thesis/scripts/stateless-methodstats.dat", header = TRUE, row.names = NULL, check.names = FALSE)
 
 
 
